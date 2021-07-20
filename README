@@ -1,0 +1,10 @@
+Prerrequisites for building:
+
++ libasio
++ catch
++ libssl-dev
++ cmake
++ restbed (https://github.com/Corvusoft/restbed) - assume it is compiled and its 'distribution' directory copied into /opt/restbed
++ rapidjson (https://github.com/Tencent/rapidjson) - assume it is downloaded and its 'include/rapidjson' directory copied into /opt/rapidjson/include
+
+This setup is fragile and not very standard - studying some way to make it all work on vcpkg or conan
